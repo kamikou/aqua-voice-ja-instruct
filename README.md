@@ -1,4 +1,4 @@
-# aqua-voice-ja-instruct
+# aqua-voice-ja-custom-instructions
 
 このプロジェクトは、[Aqua Voice](https://withaqua.com/)向けの日本語音声入力に最適化したCustom Instructionsを提供します。
 
