@@ -13,7 +13,7 @@
 ## 使い方
 
 1. Aqua Voiceの設定画面で「Custom Instructions」を有効にします
-2. `CustomInstructions.md`の内容をコピーして設定画面に貼り付けます
+2. `aqua-voice-ja-custom-instructions.md`の内容をコピーして設定画面に貼り付けます
 3. 必要に応じて、プロンプトの内容をカスタマイズしてください
 
 ## 使用例
@@ -28,7 +28,7 @@
 
 ## ファイル構成
 
-- `CustomInstructions.md`: カスタムインストラクションの本文
+- `aqua-voice-ja-custom-instructions.md`: カスタムインストラクションの本文
 - `test_inputs.md`: テスト用の入力文と期待される出力例
 
 ## 貢献
