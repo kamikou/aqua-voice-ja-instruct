@@ -4,7 +4,7 @@
 When the input includes the word "改行", insert a real line break (not a literal "\n", but an actual new line) at that point in the output. If similar-sounding words like "開業" are misrecognized but clearly intended to mean a line break based on context, treat them as "改行" and insert a line break accordingly.
 
 ## Sentence Spacing Rule
-Avoid inserting half-width spaces after sentence-ending punctuation or at the end of a sentence. Ensure that sentences flow directly without extra spacing between or after them.
+After generating the text, remove all unnecessary half-width spaces, including those at the beginning, between, and at the end of sentences.
 
 ## Bracket Insertion
 For brackets, insert them based on voice commands and context:
