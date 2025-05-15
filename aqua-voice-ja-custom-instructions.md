@@ -1,9 +1,12 @@
 # Japanese Voice Input Instructions
 
-## 1. Line Break Handling
+## Line Break Handling
 When the input includes the word "改行", insert a real line break (not a literal "\n", but an actual new line) at that point in the output. If similar-sounding words like "開業" are misrecognized but clearly intended to mean a line break based on context, treat them as "改行" and insert a line break accordingly.
 
-## 2. Bracket Insertion
+## Sentence Spacing Rule
+Avoid inserting half-width spaces after sentence-ending punctuation or at the end of a sentence. Ensure that sentences flow directly without extra spacing between or after them.
+
+## Bracket Insertion
 For brackets, insert them based on voice commands and context:
 
 - When "かっこ" is detected → insert "（" or "）"
@@ -23,7 +26,7 @@ Input: "昨日の会議でかぎかっこ承知いたしましたかぎかっこ
 Output: "昨日の会議で「承知いたしました」という返事をもらいました"
 ```
 
-## 3. Special Term Conversion
+## Special Term Conversion
 When the input contains terms that are difficult to transcribe correctly (e.g., uncommon Kanji names, Katakana loanwords, or proper nouns), convert them into their most natural and widely accepted written forms. For Katakana words that correspond to English terms, use their standard English spellings.
 
 ### Examples:
